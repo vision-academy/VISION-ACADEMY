@@ -1,0 +1,88 @@
+<!DOCTYPE HTML>
+<html>
+    <head> 
+        <link rel="stylesheet" href="header.css">
+        <title>GALLERY</title>
+        <style>
+            div.galllery{
+                margin: 5px;
+                border: 1px solid #ccc;
+                float: left;
+                width: 180px;
+            }
+            div.gallery:hover{
+                border: 1px solid #777;
+            }
+            div.gallery img{
+                width: 100%;
+                height: auto;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="topnav" id="myTopnav"
+    <a href="index.html" class="active">Home</a>
+    <a href="about.html">About Us</a>
+    <a href="programs.html">Programs</a>
+    <a href="information.html">Information</a>
+    <a href="activities.html">Activities</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="online class learning.html">Online Class Learning</a>
+    <a href="contact us.html">Contact Us</a>
+    <a href="javascript:void(0);"
+    class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a>
+</div>
+
+<script>
+    function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if(x.className === "topnav") {
+            x.className += "responsive";
+        } else {
+            x.className = "topnav";
+        }
+    }
+</script>
+        <img src="./images/logo.png" width="300" id="logo"/>
+        <div class="gallery">
+            <img src="./images/school.jpeg"id="school" width="400" />
+        </div>
+        <div class="gallery">
+            <img src="./images/learn.jpeg"width="500" height="300"/>        
+        </div>
+        <div class="gallery">
+            <img src="./images/graduate.jpeg"width="500" height="300"/>        
+        </div>
+        <div class="gallery">
+            <img src="./images/games.jpeg"width="500" height="300"/>        
+        </div>
+        <div class="gallery">
+            <img src="./images/playgroup.jpeg"width="500" height="300"/>        
+        </div>
+        <div class="gallery">
+            <img src="./images/teach.jpg"width="500" height="300"/>        
+        </div>
+        <div class="gallery">
+            <img src="./images/class.jpeg"width="500" height="300"/>        
+        </div>
+        <div class="gallery">
+            <img src="./images/ceremony.jpg"width="500" height="300"/>        
+        </div>
+        <div class="gallery">
+            <img src="./images/class1.jpeg"width="500" height="300" />        
+        </div>
+        <div class="gallery">
+            <img src="./images/environment.jpeg"width="500" height="300" />        
+        </div>
+        <div class="gallery">
+            <img src="./images/GAME.jpeg"width="500" height="300" />        
+        </div>
+        <div class="gallery">
+            <img src="./images/dance.jpg"width="500" height="300" />        
+        </div>
+        <br />
+        <br />
+       <p>copyright&copy;2021</p>
+       <h3><a href="#school">Back to top</a></h3>
+    </body>
+</html>

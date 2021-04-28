@@ -1,0 +1,50 @@
+body{
+    background-color: skyblue;
+}
+
+h1,h2,title{color:darkblue; font-family: Georgia, 'Times New Roman', Times, serif;}
+#canvas{
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: yellowgreen;
+    width: 700px;
+    height: 300px;
+    margin: 50px auto;
+}
+#primary-number, #secondary-number{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    font-weight: bold;
+    width: 122px;
+    height: 122px;
+    box-sizing: border-box;
+}
+#primary-number{
+    border: solid 4px darkgreen;
+}
+#secondary-number{
+    border: solid 4px darkblue;
+}
+#add, #equal{
+    font-weight: bold;
+    font-size: 39px;
+    padding: 5px;
+}
+input{
+    border: solid 2px cyan;
+    width: 150px;
+    height: 30px;
+    padding-left: 24px;
+}
+button{
+    width: 100px;
+    height: 35px;
+    margin: 5px;
+    background-color: darkred;
+    color: white;
+    border: 1px solid lightgrey;
+}

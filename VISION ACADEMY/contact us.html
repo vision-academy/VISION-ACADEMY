@@ -1,0 +1,61 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <link rel="stylesheet" href="header.css">
+        <style>
+            h1,h2,title{color:darkblue; font-family: Georgia, 'Times New Roman', Times, serif;}
+        </style>
+        <title>Contact Us</title>
+    </head>
+    <body>
+        <div class="topnav" id="myTopnav"
+        <a href="index.html" class="active">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="programs.html">Programs</a>
+        <a href="information.html">Information</a>
+        <a href="activities.html">Activities</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="online class learning.html">Online Class Learning</a>
+        <a href="contact us.html">Contact Us</a>
+        <a href="javascript:void(0);"
+        class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a>
+    </div>
+    
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if(x.className === "topnav") {
+                x.className += "responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+       <img src="./images/logo.png" width="300" id="logo"/>
+       <h1>Contact Us</h1>
+       <br />
+       <form action="">
+           <!--name-->
+           <label for="name">Name</label>
+           <input type="text" name="name" id="name" />
+           <br />
+           <br />
+           <!--email-->
+           <label for="email">Email</label>
+           <input type="text" name="email" id="email"/>
+           <br />
+           <br />
+           <!--description-->
+           <p>Description</p>
+           <textarea name="description" id="" cols="30" rows="10" placeholder="Your Description"
+           ></textarea>
+           <br/>
+           <button for="submit">Submit</button>
+       </form>
+       <br />
+       <br />
+       <br />
+       <p>copyright&copy;2021</p>
+       <h3><a href="#name">Back to top</a></h3>
+    </body>
+</html>
